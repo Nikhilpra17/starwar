@@ -17,7 +17,6 @@ const People = ({ urls }) => {
         console.error("Error fetching people data:", error);
       }
     };
-
     fetchData();
   }, [urls]);
 
